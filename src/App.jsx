@@ -1,13 +1,13 @@
 import './App.css'
+import Revenue from './components/Revenue'
+
 
 function App() {
 
   return (
     <>
-      <div className='grid grid-cols-1 md:grid-cols-3'>
-        <h1 className='bg-red-600'>Niraj</h1>
-        <h1 className='bg-yellow-600'>Niraj</h1>
-        <h1 className='bg-blue-600'>Niraj</h1>
+      <div className='grid grid-cols-4'>
+        <Revenue title={"Amount Pending"} orderCount={13} amount={"13123341"}/>
       </div>
     </>
   )
